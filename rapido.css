@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    /* border: 2px solid red; */
+    height: 15vh;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    gap: 45%;
+    text-decoration:none;
+}
+
+.img1{
+    /* border: 2px solid rgb(11, 167, 37); */
+    height: 70%;
+    width: 10%;
+    border-radius: 10%;
+}
+.img1 img{
+     height: 100%;
+     width: 100%;
+}
+.c{
+    /* border: 2px solid rgb(235, 29, 29); */
+    height: 70%;
+    width: 34%;
+    justify-content: center;
+    align-items: center;
+    display: flex; justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 35px;
+    font-size: 26px;
+    color: black;
+} 
+
+.c a{
+    color: black;
+    text-decoration: none;
+}
+.icon{
+    padding: 10px;
+    border-radius: 5px;
+    height: 70px;
+    width: 540px;
+    border: 1px solid rgb(197, 193, 193);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon input{
+      border: 1px solid white;
+    height: 100%;
+    width: 90%;
+
+}
+.icon input::before{
+    border: 1px solid white;
+    outline: none;
+} 
+.icon input::placeholder{
+    font-size: 20px;
+      border: 1px solid white;
+}
+
+.booking{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.booking button{
+    height: 50%;
+    width: 90%;
+    /* margin-left: 3%; */
+    /* margin-top: 5%;  */
+    font-size: 50px;
+    background-color:gold;
+    border-radius: 20px;
+}
+
+.services h1{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 60px;
+    text-decoration: wavy black;
+
+}
+.bike_section{
+    position: relative;
+    left: 100px;
+    /* border: 2px solid black; */
+    /* margin-left: 60px; */
+    width: 80%;
+    padding: 10px;
+    gap: 20px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.bike{
+    margin-top: 40px;
+    height: 120px;
+    width: 180px;
+    /* border: 2px solid black; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+.main2{
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.main1{
+    padding: 10px;
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black;   */
+}
+.main1 h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main1 p{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main1 button{
+    font-size: 30px;
+    border-radius: 40px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+   height: 15%;
+   width: 50%;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    
+}
+.main4{
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+
+.main3 h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main3 p{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main3 button{
+    font-size: 30px;
+    border-radius: 40px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    height: 15%;
+    width: 50%;
+   
+}
+.main5{
+    padding: 10px;
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black;   */
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+.last1{
+    padding: 10px;
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black;   */
+}
+.last2{
+    height: 80%;
+    width: 40%;
+    padding: 10px;
+}
+.main5{
+    padding: 10px;
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid black;   */
+}
+
+.last1 h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last1 p{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last1 button{
+    font-size: 30px;
+    border-radius: 40px;
+    border: none;
+    color: blue;
+    height: 15%;
+    width: 50%;
+}
+.d{
+    background-color: black;
+    height:350px;
+    width:100%; 
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    height: 140px;
+    /* border:2px solid red; */
+}
+.d1 h1{
+    color:white;
+    font-size:55px;
+    font-weight:bold;
+
+}
+.d2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:auto;
+    /* border:2px solid red; */
+    width:600px;
+    
+}
+.d3 h1{
+    color:white;
+    font-size: 25px;
+}
+.d4 h1{
+    color:white;
+    font-size: 25px;
+
+}
+.d3 img{
+    height: 12vh;
+    width: 100%;
+}
+.d4 img{
+    height: 12vh;
+    width: 50%;
+}
+
+.f{
+    display: flex;
+    justify-content: center;
+    /* gap: 30px; */
+    align-items: center;
+    border: 2px solid black;
+    height: 20vh;
+    margin-top: 20px;
+}
+
+.f img{
+    height: 20vh;
+    width: 100%;
+}
+.l{
+    height: 50vh;
+    border: 2px solid black;
+    /* margin-top: 2px; */
+}
+
+.l2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 40vh;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
